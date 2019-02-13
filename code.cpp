@@ -22,7 +22,7 @@ unsigned long lastUpdateTime  = 0;
 /*
  * Amount of spark fires in a single interval
  */
-int sparkFireCount            = 0;
+volatile int sparkFireCount            = 0;
 
 /*
  * Rpm value from last update
